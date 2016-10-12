@@ -1,8 +1,9 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern=".braintree.env" type="PLAIN_TEXT" />
       <mapping pattern="201609091537_add_paypal_options_in_backstage.sql" type="PLAIN_TEXT" />
+      <mapping pattern=".braintree.env" type="PLAIN_TEXT" />
+      <mapping pattern="201610121600_add_paypal_to_accepted_column_in_gateway_table.sql" type="PLAIN_TEXT" />
       <mapping ext="php___jb_tmp___" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
