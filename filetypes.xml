@@ -14,6 +14,7 @@
       <mapping pattern=".braintree.env" type="PLAIN_TEXT" />
       <mapping pattern="201610121600_add_paypal_to_accepted_column_in_gateway_table.sql" type="PLAIN_TEXT" />
       <mapping pattern="201609091537_add_paypal_options_in_backstage.sql" type="PLAIN_TEXT" />
+      <mapping ext="esi" type="PLAIN_TEXT" />
       <mapping ext="php___jb_tmp___" type="PLAIN_TEXT" />
       <mapping pattern="20170406_delete_csr_resource_add_new_resources" type="SQL" />
     </extensionMap>
