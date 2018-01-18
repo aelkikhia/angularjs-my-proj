@@ -287,7 +287,7 @@
         </phpinfo>
       </interpreter>
       <interpreter name="brew PHP56">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php56/5.6.31_7/bin/php-cgi" php_cli="/usr/local/Cellar/php56/5.6.31_7/bin/php" path_separator=":" version="5.6.31">
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php56/5.6.33_9/bin/php-cgi" php_cli="/usr/local/Cellar/php56/5.6.33_9/bin/php" path_separator=":" version="5.6.33" warning="PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/Cellar/php56/5.6.33_9/lib/php/extensions/no-debug-non-zts-20131226/xdebug.so' - dlopen(/usr/local/Cellar/php56/5.6.33_9/lib/php/extensions/no-debug-non-zts-20131226/xdebug.so, 9): image not found in Unknown on line 0&#10;PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/Cellar/php56/5.6.33_9/lib/php/extensions/no-debug-non-zts-20131226/apcu.so' - dlopen(/usr/local/Cellar/php56/5.6.33_9/lib/php/extensions/no-debug-non-zts-20131226/apcu.so, 9): image not found in Unknown on line 0&#10;PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/Cellar/php56/5.6.33_9/lib/php/extensions/no-debug-non-zts-20131226/igbinary.so' - dlopen(/usr/local/Cellar/php56/5.6.33_9/lib/php/extensions/no-debug-non-zts-20131226/igbinary.so, 9): image not found in Unknown on line 0&#10;PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/Cellar/php56/5.6.33_9/lib/php/extensions/no-debug-non-zts-20131226/memcache.so' - dlopen(/usr/local/Cellar/php56/5.6.33_9/lib/php/extensions/no-debug-non-zts-20131226/memcache.so, 9): image not found in Unknown on line 0&#10;PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/Cellar/php56/5.6.33_9/lib/php/extensions/no-debug-non-zts-20131226/redis.so' - dlopen(/usr/local/Cellar/php56/5.6.33_9/lib/php/extensions/no-debug-non-zts-20131226/redis.so, 9): image not found in Unknown on line 0&#10;">
           <additional_php_ini>/usr/local/etc/php/5.6/conf.d/ext-apcu.ini, /usr/local/etc/php/5.6/conf.d/ext-igbinary.ini, /usr/local/etc/php/5.6/conf.d/ext-memcache.ini, /usr/local/etc/php/5.6/conf.d/ext-memcached.ini, /usr/local/etc/php/5.6/conf.d/ext-redis.ini, /usr/local/etc/php/5.6/conf.d/ext-xdebug.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/5.6/php.ini</configuration_file>
           <configuration_options>
@@ -300,7 +300,7 @@
             <configuration_option name="apc.enabled" value="1" />
             <configuration_option name="apc.entries_hint" value="4096" />
             <configuration_option name="apc.gc_ttl" value="3600" />
-            <configuration_option name="apc.mmap_file_mask" value="/tmp/apc.bbLzYn" />
+            <configuration_option name="apc.mmap_file_mask" value="/tmp/apc.kPGW1O" />
             <configuration_option name="apc.preload_path" value="" />
             <configuration_option name="apc.rfc1867" value="0" />
             <configuration_option name="apc.rfc1867_freq" value="0" />
@@ -353,7 +353,7 @@
             <configuration_option name="error_append_string" value="" />
             <configuration_option name="error_log" value="" />
             <configuration_option name="error_prepend_string" value="" />
-            <configuration_option name="error_reporting" value="32759" />
+            <configuration_option name="error_reporting" value="4177" />
             <configuration_option name="exif.decode_jis_intel" value="JIS" />
             <configuration_option name="exif.decode_jis_motorola" value="JIS" />
             <configuration_option name="exif.decode_unicode_intel" value="UCS-2LE" />
@@ -362,7 +362,7 @@
             <configuration_option name="exif.encode_unicode" value="ISO-8859-15" />
             <configuration_option name="exit_on_timeout" value="0" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="/usr/local/Cellar/php56/5.6.31_7/lib/php/extensions/no-debug-zts-20131226" />
+            <configuration_option name="extension_dir" value="/usr/local/Cellar/php56/5.6.33_9/lib/php/extensions/no-debug-non-zts-20131226" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -430,12 +430,23 @@
             <configuration_option name="memcached.sess_remove_failed" value="1" />
             <configuration_option name="memcached.store_retry_count" value="2" />
             <configuration_option name="memory_limit" value="1024M" />
+            <configuration_option name="mysql.allow_local_infile" value="1" />
+            <configuration_option name="mysql.allow_persistent" value="1" />
+            <configuration_option name="mysql.connect_timeout" value="60" />
+            <configuration_option name="mysql.default_host" value="" />
+            <configuration_option name="mysql.default_password" value="" />
+            <configuration_option name="mysql.default_port" value="" />
+            <configuration_option name="mysql.default_socket" value="/tmp/mysql.sock" />
+            <configuration_option name="mysql.default_user" value="" />
+            <configuration_option name="mysql.max_links" value="-1" />
+            <configuration_option name="mysql.max_persistent" value="-1" />
+            <configuration_option name="mysql.trace_mode" value="" />
             <configuration_option name="mysqli.allow_local_infile" value="1" />
             <configuration_option name="mysqli.allow_persistent" value="1" />
             <configuration_option name="mysqli.default_host" value="" />
             <configuration_option name="mysqli.default_port" value="3306" />
             <configuration_option name="mysqli.default_pw" value="" />
-            <configuration_option name="mysqli.default_socket" value="" />
+            <configuration_option name="mysqli.default_socket" value="/tmp/mysql.sock" />
             <configuration_option name="mysqli.default_user" value="" />
             <configuration_option name="mysqli.max_links" value="-1" />
             <configuration_option name="mysqli.max_persistent" value="-1" />
@@ -656,6 +667,7 @@
             <extension name="memcache" />
             <extension name="memcached" />
             <extension name="mhash" />
+            <extension name="mysql" />
             <extension name="mysqli" />
             <extension name="mysqlnd" />
             <extension name="odbc" />
